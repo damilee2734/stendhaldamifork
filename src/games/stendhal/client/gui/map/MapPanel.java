@@ -52,11 +52,11 @@ class MapPanel extends JComponent {
 	 */
 
 	/** width of the minimap. */
-	private static final int MAP_WIDTH = 128;
+	private static final int MAP_WIDTH = 256;
 	/** height of the minimap. */
-	private static final int MAP_HEIGHT = 128;
+	private static final int MAP_HEIGHT = 256;
 	/** Minimum scale of the map; the minimum size of one tile in pixels */
-	private static final int MINIMUM_SCALE = 2;
+	private static final int MINIMUM_SCALE = 4;
 
 	private final StendhalClient client;
 	private final MapPanelController controller;
